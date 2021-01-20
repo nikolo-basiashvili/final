@@ -1,0 +1,35 @@
+{   
+ "block_title":"Best Articles",
+ "data":[
+    {
+        "title":"Hubble Deep Space",
+        "image":"images/hubble_deep_space.jpg",
+        "text":"The Hubble Space Telescope stared deep into a seemingly dark, empty area of space for a million seconds to obtain this image that reveals 10,000 galaxies. Take a tour of this historic image from the Hubble Space Telescope."
+    },
+    {
+        "title":"Eagle Nebula",
+        "image":"images/eagle_nebula.jpg",
+        "text":"The Eagle Nebula, also known as Messier 16, contains the young star cluster NGC 6611. It also the site of the spectacular star-forming region known as the Pillars of Creation, which is located in the southern portion of the Eagle Nebula."
+    },
+    {
+        "title":"Galaxies",
+        "image":"images/galaxy.jpg",
+        "text":"Galaxies are vast cosmic islands of stars, gas, dust, and dark matter held together by gravity. Hubble's keen eye has revealed intricate details of the shapes, structures, and histories of galaxies — whether alone, as part of small groups, or within immense clusters."
+    },
+    {
+        "title":"Andromeda",
+        "image":"images/andromeda.jpg",
+        "text":"The Andromeda galaxy is the closest big galaxy to our Milky Way. At 2.5 million light-years, it’s the most distant thing you can see with the eye alone. Now is the time to look for it."
+    },
+    {
+        "title":"Earth's New Moon",
+        "image":"images/earth.jpg",
+        "text":"New moons happen when the moon is directly between the sun and Earth. About every 29.5 days the two bodies share the same celestial longitude, an alignment also called a conjunction."
+    },
+    {
+        "title":"Mars",
+        "image":"images/mars.jpg",
+        "text":"With a radius of 2,106 miles, Mars is the seventh largest planet in our solar system and about half the diameter of Earth. Its surface gravity is 37.5 percent of Earth's"
+    }
+ ]  
+}     

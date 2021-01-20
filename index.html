@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\reset.css">
+    <link rel="stylesheet" type="text/css" href="css\header.css">
+    <link rel="stylesheet" type="text/css" href="css\main.css">
+    <link rel="stylesheet" type="text/css" href="css\footer.css">
+    <meta property="og:title" content="Space Stuff News">
+    <meta property="og:description" content="News and general info about space">
+    <meta property="og:image" content="https://baska5.github.io/lesson-responsive/images/hubble_deep_space.jpg">
+    <meta property="og:url" content="https://baska5.github.io/lesson-responsive/">
+    <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="1297266010620119">
+    <title>Spc Articles</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class='header-logo'>
+                <h1 class="main-title">
+                    SPC
+                </h1> 
+            </div>
+            <div class="header-toggle" onclick="toggleMenu()">
+                <p class="curr-page">☰</p>
+            </div>
+        </div>
+        <nav class="header-bottom">
+            <ul id="navigation" class="navigation">
+                <li class="navigation-item">
+                    <p class="curr-page">
+                        Home
+                    </p>
+                </li>
+                <li class="navigation-item">
+                    <a href="contact.html" class="nav-item">
+                        Contact
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a href="team.html" class="nav-item">
+                        Team
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-page" id="mainBlock">
+        
+    </main>
+    <section>
+        <div class="info">
+            <div class="block">
+                <h5 class="block-header">
+                    Address And Contact
+                </h5>
+            </div>
+            <div class="block">
+                <a href="#" class="block-text">
+                    82 Chavchavadze ST.
+                </a>
+                <a href="#" class="block-text">
+                    Tbilisi
+                </a>
+                <a href="#" class="block-text">
+                    +995000000000
+                </a>
+                <a href="#" class="block-text">
+                    info@btu.edu.ge
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="text-wrapper">
+            <p class="footer-text">
+                SPC © All Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script>
+        let nav = document.getElementById('navigation');
+        function toggleMenu() {
+            nav.classList.toggle('navigation-visible');
+        }
+    </script>
+    <script src="js/load_articles.js"></script>
+</body>
+</html>

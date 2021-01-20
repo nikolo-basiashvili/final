@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\reset.css">
+    <link rel="stylesheet" type="text/css" href="css\header.css">
+    <link rel="stylesheet" type="text/css" href="css\team.css">
+    <link rel="stylesheet" type="text/css" href="css\footer.css">
+    <title>Team</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-logo">
+                <h1 class="main-title">
+                    SPC
+                </h1> 
+            </div>
+            <div class="header-toggle" onclick="toggleMenu()">
+                ☰
+            </div>
+        </div>
+        <nav class="header-bottom">
+            <ul id="navigation" class="navigation">
+                <li class="navigation-item">
+                    <a href="index.html" class="nav-item">
+                        Home
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a href="contact.html" class="nav-item"> 
+                        Contact
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <p class="curr-page">
+                        Team
+                    </p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-page" id="mainBlock">
+        <div class="title-block">
+            <p class="title">
+                Our Team
+            </p>
+        </div>
+        <div class="team-block">
+
+        </div>
+    </main>
+    <section>
+        <div class="info">
+            <div class="block">
+                <h5 class="block-header">
+                    Address And Contact
+                </h5>
+            </div>
+            <div class="block">
+                <a href="#" class="block-text">
+                    82 Chavchavadze ST.
+                </a>
+                <a href="#" class="block-text">
+                    Tbilisi
+                </a>
+                <a href="#" class="block-text">
+                    +995000000000
+                </a>
+                <a href="#" class="block-text">
+                    info@btu.edu.ge
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="text-wrapper">
+            <p class="footer-text">
+                SPC © All Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script>
+        let nav = document.getElementById('navigation');
+        function toggleMenu() {
+            nav.classList.toggle('navigation-visible');
+        }
+    </script>
+    <script src="js/load_employees.js"></script>
+</body>
+</html>
