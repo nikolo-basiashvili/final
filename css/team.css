@@ -92,3 +92,9 @@
 		height: 530px;
 	}
 }
+
+@media  (min-height :1050px) {
+	.main-page{
+		height:80vh;
+	}
+}

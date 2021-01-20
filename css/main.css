@@ -88,5 +88,10 @@
 		height: 370px;
 	}
 }
+@media  (min-height :910px) {
+	.main-page{
+		height:80vh;
+	}
+}
 
 

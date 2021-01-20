@@ -87,3 +87,9 @@
     margin: 10px;
     color: #d63c3c;
 }
+
+@media  (min-height :780px) {
+	.main-block{
+		height:80vh;
+	}
+}
