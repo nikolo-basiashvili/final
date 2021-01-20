@@ -36,9 +36,9 @@ function checkForm(e){
         msgBlock.setAttribute("class", "message-block-success");
         msgTxt.setAttribute("class", "message-text-success");
         msgTxt.textContent = "Success";
+        userMessage.value = "";
     }
     form.appendChild(msgBlock);
-    userMessage.value = "";
 }
 
 submitBtn.addEventListener("click", (e) => {
